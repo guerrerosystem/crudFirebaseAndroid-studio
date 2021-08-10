@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E91E63"
+        android:gravity="center"
+        android:text="Actualizar datos"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/uimgurl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Imagen URL"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/unombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Nombre"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/uedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="edad"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/uemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="correo"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/usenviar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#9C27B0"
+        android:text="Actualizar"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+</LinearLayout>
